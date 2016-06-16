@@ -52,6 +52,7 @@ public class Mf1 extends JFrame {
 	private void initGUI() {
 		// TODO Auto-generated method stub
 		final JFrame mf1=new JFrame("ÃÌº”‘±π§");
+		mf1.setLocation(660,340);
 				mf1.setSize(500, 575);
 				mf1.setVisible(true);
 				JPanel jp=new JPanel();
@@ -248,7 +249,7 @@ public class Mf1 extends JFrame {
 					@Override
 					public void actionPerformed(ActionEvent e) {
 						// TODO Auto-generated method stub
-						new Myframe();
+						new Myframe1();
 						mf1.setVisible(false);
 						
 					}

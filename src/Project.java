@@ -19,7 +19,7 @@ public class Project
 	
 public static void main(String[] args)
 {
-	new Mf2();
+	new Login();
 	
 //	String sql;
 //	Connection conn=null;
@@ -34,15 +34,16 @@ public static void main(String[] args)
 //	String password="12345";
 //	conn= DriverManager.getConnection(url,user,password);
 //	stmt=conn.createStatement();
-//	sql="select * from PERSONNEL";
+//	sql="select * from PERSON where PID ="+2+";";
 //	rs=stmt.executeQuery(sql);
-//	ChangeId c=new ChangeId();
-//	int i=c.getId()+1;
+//	
+//	int i;
 //	while(rs.next()){
-//		s=rs.getString("ID");
+//		s=rs.getString("PASSWD");
 //		
 //	}
-//	System.out.println(i);
+//	
+//	System.out.println(s);
 //	rs.close();
 //	stmt.close();
 //	conn.close();

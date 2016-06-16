@@ -27,6 +27,7 @@ public class ChangeFrame extends JFrame{
 	private void initGUI() {
 		// TODO Auto-generated method stub
 		  final JFrame mf=new JFrame("添加人事变动");
+		  mf.setLocation(660,340);
 		JPanel jp=new JPanel();
 		jp.setLayout(null);
 		

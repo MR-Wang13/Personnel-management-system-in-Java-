@@ -29,6 +29,7 @@ public class Mf3 extends JFrame{
 	private void initGUI() {
 		// TODO Auto-generated method stub
 		  final JFrame mf3=new JFrame("人事变动");
+		  mf3.setLocation(500,250);
 		
 		scpDemo = new JScrollPane();
 		scpDemo.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -88,12 +89,12 @@ public class Mf3 extends JFrame{
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
 				mf3.setVisible(false);
-				new Myframe();
+				new Myframe1();
 			}
 			
 		});
 		mf3.getContentPane().add(button);
-
+		mf3.repaint();
 		rs.close();
 		conn.close();
 		stmt.close();

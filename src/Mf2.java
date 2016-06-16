@@ -79,7 +79,7 @@ private void initGUI() {
 	// TODO Auto-generated method stub
 	 
 	final JFrame mf2=new JFrame("人员信息");
-	
+	mf2.setLocation(460,180);
 	mf2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	scpDemo = new JScrollPane();
 	scpDemo.setBounds(0, 0, 800, 356);
@@ -337,7 +337,7 @@ btnNewButton.addActionListener(new ActionListener(){
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		mf2.setVisible(false);
-		new Myframe();
+		new Myframe1();
 	}
 	
 });
@@ -437,6 +437,8 @@ btnNewButton_1.addActionListener(new ActionListener(){
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
+		
+
 	}
 	
 });
@@ -452,7 +454,9 @@ button_2.addActionListener(new ActionListener(){
 				,textField_28.getText(),textField_29.getText(),textField_30.getText(),textField_31.getText(),textField_32.getText(),textField_33.getText(),textField_34.getText()
 				,textField_35.getText());
 		mf2.setVisible(false);
+		
 		new Mf2();
+		new ChangeFrame();
 	}
 	
 });
